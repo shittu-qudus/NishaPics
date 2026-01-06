@@ -17,7 +17,7 @@ export function Footer() {
           {/* Logo & About */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-                <img src="/logo2.jpg" alt="Logo" height={50} width={50}/>
+              <img src="/logo2.jpg" alt="Logo" height={50} width={50} />
             </div>
             <p className="text-gray-400 text-sm">
               Capturing life's most precious moments with artistry and passion. Professional photography services for weddings, portraits, and events.
@@ -51,7 +51,7 @@ export function Footer() {
             <h3 className="text-white mb-4">Connect With Us</h3>
             <div className="flex gap-4">
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/_Nisha_pics"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-white hover:text-gray-900 transition-colors"

@@ -25,7 +25,7 @@ export default function Contact() {
     message: '',
     type: 'info'
   });
-  
+
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
 
@@ -106,7 +106,7 @@ export default function Contact() {
 
     } catch (error: any) {
       console.error('Email sending failed:', error);
-      
+
       let errorMessage = 'Sorry, there was an error sending your message. Please try again later.';
       let errorTitle = 'Sending Failed';
 
@@ -123,7 +123,7 @@ export default function Contact() {
         if (error.message.includes('Network')) {
           errorTitle = 'Network Error';
           errorMessage = 'Network connection issue. Please check your internet connection and try again.';
-        } 
+        }
         else if (error.message.includes('fill in all required fields')) {
           errorTitle = 'Validation Error';
           errorMessage = 'Please fill in all required fields (Name, Email, and Message).';
@@ -135,7 +135,7 @@ export default function Contact() {
       }
 
       showModal(errorTitle, errorMessage, 'error');
-      
+
     } finally {
       setIsSubmitting(false);
     }
@@ -330,7 +330,7 @@ export default function Contact() {
 
       <section id="contact" className="py-20 bg-gray-50" ref={sectionRef}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div 
+          <div
             className={`text-center mb-12 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}
             style={{ animationDelay: '0.1s' }}
           >
@@ -342,10 +342,9 @@ export default function Contact() {
 
           <div className="grid md:grid-cols-2 gap-12">
             {/* Contact Form */}
-            <div 
-              className={`contact-card bg-white p-8 rounded-lg shadow-md ${
-                isVisible ? 'animate-fade-in-left' : 'opacity-0'
-              }`}
+            <div
+              className={`contact-card bg-white p-8 rounded-lg shadow-md ${isVisible ? 'animate-fade-in-left' : 'opacity-0'
+                }`}
               style={{ animationDelay: '0.2s' }}
             >
               <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
@@ -417,11 +416,10 @@ export default function Contact() {
                 <button
                   onClick={handleSubmit}
                   disabled={isSubmitting}
-                  className={`send-btn w-full py-3 rounded-lg transition-colors flex items-center justify-center gap-2 font-semibold ${
-                    isSubmitting
+                  className={`send-btn w-full py-3 rounded-lg transition-colors flex items-center justify-center gap-2 font-semibold ${isSubmitting
                       ? 'bg-gray-400 cursor-not-allowed'
                       : 'bg-black hover:bg-gray-800 text-white'
-                  } ${isVisible ? 'animate-scale-in' : 'opacity-0'}`}
+                    } ${isVisible ? 'animate-scale-in' : 'opacity-0'}`}
                   style={{ animationDelay: '0.7s' }}
                 >
                   {isSubmitting ? (
@@ -441,19 +439,17 @@ export default function Contact() {
 
             {/* Contact Info */}
             <div>
-              <div 
-                className={`contact-card bg-white p-8 rounded-lg shadow-md mb-6 ${
-                  isVisible ? 'animate-fade-in-right' : 'opacity-0'
-                }`}
+              <div
+                className={`contact-card bg-white p-8 rounded-lg shadow-md mb-6 ${isVisible ? 'animate-fade-in-right' : 'opacity-0'
+                  }`}
                 style={{ animationDelay: '0.3s' }}
               >
                 <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
-                
+
                 <div className="space-y-4">
-                  <div 
-                    className={`contact-info-item flex items-start gap-4 ${
-                      isVisible ? 'animate-scale-in' : 'opacity-0'
-                    }`}
+                  <div
+                    className={`contact-info-item flex items-start gap-4 ${isVisible ? 'animate-scale-in' : 'opacity-0'
+                      }`}
                     style={{ animationDelay: '0.4s' }}
                   >
                     <Mail className="w-5 h-5 mt-1 text-black" />
@@ -466,10 +462,9 @@ export default function Contact() {
                     </div>
                   </div>
 
-                  <div 
-                    className={`contact-info-item flex items-start gap-4 ${
-                      isVisible ? 'animate-scale-in' : 'opacity-0'
-                    }`}
+                  <div
+                    className={`contact-info-item flex items-start gap-4 ${isVisible ? 'animate-scale-in' : 'opacity-0'
+                      }`}
                     style={{ animationDelay: '0.5s' }}
                   >
                     <Phone className="w-5 h-5 mt-1 text-black" />
@@ -482,10 +477,9 @@ export default function Contact() {
                     </div>
                   </div>
 
-                  <div 
-                    className={`contact-info-item flex items-start gap-4 ${
-                      isVisible ? 'animate-scale-in' : 'opacity-0'
-                    }`}
+                  <div
+                    className={`contact-info-item flex items-start gap-4 ${isVisible ? 'animate-scale-in' : 'opacity-0'
+                      }`}
                     style={{ animationDelay: '0.6s' }}
                   >
                     <MapPin className="w-5 h-5 mt-1 text-black" />
@@ -498,10 +492,9 @@ export default function Contact() {
               </div>
 
               {/* Social Links */}
-              <div 
-                className={`contact-card bg-white p-8 rounded-lg shadow-md ${
-                  isVisible ? 'animate-fade-in-right' : 'opacity-0'
-                }`}
+              <div
+                className={`contact-card bg-white p-8 rounded-lg shadow-md ${isVisible ? 'animate-fade-in-right' : 'opacity-0'
+                  }`}
                 style={{ animationDelay: '0.4s' }}
               >
                 <h3 className="text-2xl font-semibold mb-6">Follow Us</h3>
@@ -510,9 +503,8 @@ export default function Contact() {
                     href="https://instagram.com/_Nisha_pics"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`social-link w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-pink-600 hover:text-white ${
-                      isVisible ? 'animate-scale-in' : 'opacity-0'
-                    }`}
+                    className={`social-link w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-pink-600 hover:text-white ${isVisible ? 'animate-scale-in' : 'opacity-0'
+                      }`}
                     style={{ animationDelay: '0.5s' }}
                     aria-label="Instagram"
                   >
@@ -522,21 +514,19 @@ export default function Contact() {
                     href="https://twitter.com/yourusername"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`social-link w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-blue-400 hover:text-white ${
-                      isVisible ? 'animate-scale-in' : 'opacity-0'
-                    }`}
+                    className={`social-link w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-blue-400 hover:text-white ${isVisible ? 'animate-scale-in' : 'opacity-0'
+                      }`}
                     style={{ animationDelay: '0.6s' }}
                     aria-label="Twitter"
                   >
                     <FaTwitter className="w-5 h-5" />
                   </a>
                   <a
-                    href="https://tiktok.com/@yourusername"
+                    href="https://tiktok.com/@Nisha_pics"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`social-link w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-black hover:text-white ${
-                      isVisible ? 'animate-scale-in' : 'opacity-0'
-                    }`}
+                    className={`social-link w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-black hover:text-white ${isVisible ? 'animate-scale-in' : 'opacity-0'
+                      }`}
                     style={{ animationDelay: '0.7s' }}
                     aria-label="TikTok"
                   >
