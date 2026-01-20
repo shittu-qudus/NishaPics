@@ -218,7 +218,7 @@ export default function Hero() {
       {/* Navigation Arrows */}
       <button
         onClick={prevSlide}
-        className={`nav-btn absolute left-4 top-1/2 -translate-y-1/2 bg-white/20 backdrop-blur-sm text-white p-3 rounded-full z-10 ${
+        className={`nav-btn absolute left-4 top-1/3 -translate-y-1/2 bg-white/20 backdrop-blur-sm text-white p-3 rounded-full z-10 ${
           isLoaded ? 'animate-slide-in-left' : 'opacity-0'
         }`}
         style={{ animationDelay: '0.8s' }}
@@ -228,7 +228,7 @@ export default function Hero() {
       </button>
       <button
         onClick={nextSlide}
-        className={`nav-btn absolute right-4 top-1/2 -translate-y-1/2 bg-white/20 backdrop-blur-sm text-white p-3 rounded-full z-10 ${
+        className={`nav-btn absolute right-4 top-1/3 -translate-y-1/2 bg-white/20 backdrop-blur-sm text-white p-3 rounded-full z-10 ${
           isLoaded ? 'animate-slide-in-right' : 'opacity-0'
         }`}
         style={{ animationDelay: '0.8s' }}

@@ -33,11 +33,26 @@ const portfolioImages: PortfolioImage[] = [
   { id: 19, src: '/models/model3.jpg', category: 'models', title: 'Editorial Model', placeholderColor: '#f5f5f5', width: 600, height: 800 },
   { id: 20, src: '/models/model4.jpg', category: 'models', title: 'Fashion Model', placeholderColor: '#faf8f5', width: 600, height: 800 },
   { id: 21, src: '/models/model5.jpg', category: 'models', title: 'Runway Model', placeholderColor: '#f7f7f7', width: 600, height: 800 },
-  { id: 22, src: '/babies/baby1.jpg', category: 'babies', title: 'Baby Portrait', placeholderColor: '#fff9f0', width: 600, height: 600 },
+  // { id: 22, src: '/babies/baby1.jpg', category: 'babies', title: 'Baby Portrait', placeholderColor: '#fff9f0', width: 600, height: 600 },
   { id: 23, src: '/babies/baby2.jpg', category: 'babies', title: 'Baby Portrait', placeholderColor: '#fff5e6', width: 600, height: 600 },
   { id: 24, src: '/babies/baby3.jpg', category: 'babies', title: 'Baby Portrait', placeholderColor: '#fff0d9', width: 600, height: 600 },
-  { id: 25, src: '/babies/baby4.jpg', category: 'babies', title: 'Baby Portrait', placeholderColor: '#ffebcc', width: 600, height: 600 },
+  // { id: 25, src: '/babies/baby4.jpg', category: 'babies', title: 'Baby Portrait', placeholderColor: '#ffebcc', width: 600, height: 600 },
   { id: 26, src: '/babies/baby5.jpg', category: 'babies', title: 'Baby Portrait', placeholderColor: '#ffe6bf', width: 600, height: 600 },
+  { id: 27, src: '/wed/wed6.jpg', category: 'weddings', title: 'Bride & Groom', placeholderColor: '#ede6d6', width: 800, height: 600 },
+  { id: 28, src: '/wed/wed7.jpg', category: 'weddings', title: 'Bride & Groom', placeholderColor: '#ede6d6', width: 800, height: 600 },
+  { id: 29, src: '/wed/wed8.jpg', category: 'weddings', title: 'Bride & Groom', placeholderColor: '#ede6d6', width: 800, height: 600 }, 
+  { id: 30, src: '/wed/wed9.jpg', category: 'weddings', title: 'Bride & Groom', placeholderColor: '#ede6d6', width: 800, height: 600 }, 
+  { id: 31, src: '/wed/wed10.jpg', category: 'weddings', title: 'Bride & Groom', placeholderColor: '#ede6d6', width: 800, height: 600 },
+   { id: 32, src: '/wed/wed11.jpg', category: 'weddings', title: 'Bride & Groom', placeholderColor: '#ede6d6', width: 800, height: 600 }, 
+   { id: 33, src: '/wed/wed12.jpg', category: 'weddings', title: 'Bride & Groom', placeholderColor: '#ede6d6', width: 800, height: 600 }, 
+  { id: 34, src: '/wed/wed13.jpg', category: 'weddings', title: 'Bride & Groom', placeholderColor: '#ede6d6', width: 800, height: 600 }, 
+  { id: 35, src: '/wed/wed14.jpg', category: 'weddings', title: 'Bride & Groom', placeholderColor: '#ede6d6', width: 800, height: 600 },
+   { id: 36, src: '/wed/wed15.jpg', category: 'weddings', title: 'Bride & Groom', placeholderColor: '#ede6d6', width: 800, height: 600 }, 
+   { id: 37, src: '/wed/wed16.jpg', category: 'weddings', title: 'Bride & Groom', placeholderColor: '#ede6d6', width: 800, height: 600 }, 
+   { id: 38, src: '/wed/wed18.jpg', category: 'weddings', title: 'Bride & Groom', placeholderColor: '#ede6d6', width: 800, height: 600 },
+    { id: 39, src: '/wed/wed19.jpg', category: 'weddings', title: 'Bride & Groom', placeholderColor: '#ede6d6', width: 800, height: 600 },
+     { id: 40, src: '/wed/wed20.jpg', category: 'weddings', title: 'Bride & Groom', placeholderColor: '#ede6d6', width: 800, height: 600 },
+     
 ];
 
 // Optimized Image Component with Lazy Loading
