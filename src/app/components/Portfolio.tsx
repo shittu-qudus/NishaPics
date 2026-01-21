@@ -19,7 +19,7 @@ const portfolioImages: PortfolioImage[] = [
   { id: 4, src: '/potrait/pot2.jpg', category: 'portraits', title: 'Studio Portrait', placeholderColor: '#e6e6e6', width: 600, height: 800 },
   { id: 5, src: '/wed/wed2.jpg', category: 'weddings', title: 'Bride & Groom', placeholderColor: '#f5f0e6', width: 800, height: 600 },
   { id: 6, src: '/events/event2.jpg', category: 'events', title: 'Concert Event', placeholderColor: '#2a2a2a', width: 800, height: 600 },
-  { id: 8, src: '/wed/wed3.jpg', category: 'weddings', title: 'Bride & Groom', placeholderColor: '#e8e0d1', width: 800, height: 600 },
+  // { id: 8, src: '/wed/wed3.jpg', category: 'weddings', title: 'Bride & Groom', placeholderColor: '#e8e0d1', width: 800, height: 600 },
   { id: 9, src: '/wed/wed4.jpg', category: 'weddings', title: 'Bride & Groom', placeholderColor: '#f2e8d5', width: 800, height: 600 },
   { id: 10, src: '/wed/wed5.jpg', category: 'weddings', title: 'Bride & Groom', placeholderColor: '#ede6d6', width: 800, height: 600 },
   { id: 11, src: '/potrait/pot3.jpg', category: 'portraits', title: 'Studio Portrait', placeholderColor: '#cccccc', width: 600, height: 800 },
