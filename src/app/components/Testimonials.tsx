@@ -6,28 +6,28 @@ const testimonials = [
     id: 1,
     name: 'Sarah & Michael',
     role: 'Wedding Clients',
-    text: 'Nisha captured our wedding day perfectly! Every photo tells a story and brings back the emotions we felt. The attention to detail and professionalism was outstanding.',
+    text: 'kazy captured our wedding day perfectly! Every photo tells a story and brings back the emotions we felt. The attention to detail and professionalism was outstanding.',
     rating: 5
   },
   {
     id: 2,
     name: 'Adeyemi Johnson',
     role: 'Portrait Session',
-    text: 'Amazing experience from start to finish! Nisha made me feel comfortable and confident during the shoot. The final portraits exceeded all my expectations.',
+    text: 'Amazing experience from start to finish! kazy   made me feel comfortable and confident during the shoot. The final portraits exceeded all my expectations.',
     rating: 5
   },
   {
     id: 3,
     name: 'David chibuzo',
     role: 'Corporate Event',
-    text: 'Professional, punctual, and delivered exceptional results. Nisha captured the energy of our corporate event beautifully. Highly recommend!',
+    text: 'Professional, punctual, and delivered exceptional results. kazy  captured the energy of our corporate event beautifully. Highly recommend!',
     rating: 5
   },
   {
     id: 4,
     name: 'Emily Rodriguez',
     role: 'Family Photos',
-    text: 'Working with Nisha was a delight. Our family photos are stunning, and we will treasure them forever. The patience with our kids was remarkable!',
+    text: 'Working with kazy was a delight. Our family photos are stunning, and we will treasure them forever. The patience with our kids was remarkable!',
     rating: 5
   }
 ];

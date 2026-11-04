@@ -42,8 +42,9 @@ export function About() {
               : 'opacity-0 -translate-x-10 scale-95'
           }`}>
             <img
-              src="/nisha.jpeg"
-              alt="Nisha - Photographer"
+              // src="/nisha.jpeg" 
+               src="kazy.jpg"
+              alt="kazy  - Photographer"
               className="w-full h-[500px] object-cover rounded-lg shadow-lg transition-transform duration-300 hover:scale-[1.02]"
             />
             <div className={`absolute -bottom-6 -right-6 bg-black text-white p-6 rounded-lg shadow-xl transition-all duration-700 ease-out ${
