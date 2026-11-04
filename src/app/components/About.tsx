@@ -73,7 +73,7 @@ export function About() {
               <p className={`text-gray-700 mb-4 transition-all duration-500 delay-500 ${
                 isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
               }`}>
-                Hi, I'm RAHEEM KHADIJAT BISOLA, a passionate photographer
+                Hi, I'm KAZEEM ABIODUN YUSUFF , a passionate photographer
                 with over 7 years of experience capturing life's
                 most precious moments. My journey began with a
                 simple camera and an unwavering love for
